@@ -1,0 +1,12 @@
+{
+    "general": {
+        "labels": {
+            "emptyData": "Tidak ada data",
+            "successCopyText": "Data berhasil disalin"
+        },
+        "buttons": {
+            "retry": "Coba Lagi",
+            "copyText": "Salin"
+        }
+    }
+}
