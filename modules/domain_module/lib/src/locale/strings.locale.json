@@ -1,0 +1,10 @@
+{
+    "notificationType": {
+        "whatsapp": "WhatsApp",
+        "sms": "SMS"
+    },
+    "paymentMethod": {
+        "free": "Gratis dari Paper+",
+        "fee": "Biaya"
+    }
+}

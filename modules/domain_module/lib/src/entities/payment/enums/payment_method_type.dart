@@ -1,0 +1,4 @@
+enum PaymentMethodType {
+  digitalPayment,
+  bankTransfer;
+}

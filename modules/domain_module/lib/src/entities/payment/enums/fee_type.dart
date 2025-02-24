@@ -1,0 +1,4 @@
+enum FeeType {
+  percentage,
+  fixed;
+}
