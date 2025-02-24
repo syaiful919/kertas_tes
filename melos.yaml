@@ -1,0 +1,26 @@
+name: payment_invoice_app
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+    runPubGetInParallel: false
+
+packages:
+  - "*"
+  - modules/**
+  - modules/features/**
+
+scripts:
+  analyze:
+    run: melos exec -- "flutter analyze ."
+    description: Run `dart analyze`
+    select-package:
+      flutter: true
+      dir-exists: lib
+
+  genLocale:
+    run: melos exec "flutter pub run slang"
+    description: Generate locale in specific module
+    select-package:
+      flutter: true
+      dir-exists: lib/src/locale

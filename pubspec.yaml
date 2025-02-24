@@ -1,0 +1,43 @@
+name: payment_invoice_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  core_module:
+    path: modules/core_module
+
+  datasource_module:
+    path: modules/datasource_module
+
+  domain_module:
+    path: modules/domain_module
+  
+  third_parties_module:
+    path: modules/third_parties_module
+
+  # Features modules
+  authentication_module:
+    path: modules/features/authentication_module
+
+  payment_module:
+    path: modules/features/payment_module
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  melos: ^6.0.0
+
+flutter:
+  uses-material-design: true
