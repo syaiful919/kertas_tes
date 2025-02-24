@@ -36,3 +36,6 @@ The datasource_module is responsible for data handling, including networking (AP
 ### features_modules
 Each feature in the application is encapsulated in its own module, representing the presentation layer. These modules contain UI components, state management, and feature-specific logic. 
 
+### Screenshot
+<img src="./screenshot/1.png" width="250" /><img src="./screenshot/2.png" width="250" /><img src="./screenshot/3.png" width="250" /><img src="./screenshot/4.png" width="250" />
+<img src="./screenshot/5.png" width="250" /><img src="./screenshot/6.png" width="250" /><img src="./screenshot/7.png" width="250" /><img src="./screenshot/8.png" width="250" />
