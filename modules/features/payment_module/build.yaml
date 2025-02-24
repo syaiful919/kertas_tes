@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      slang_build_runner:
+        options:
+          base_locale: id
+          input_directory: lib/src/locale
+          input_file_pattern: .locale.json
+          output_directory: lib/src/locale
+          output_file_pattern: .g.dart
+          translate_var: locale

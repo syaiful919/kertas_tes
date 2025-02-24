@@ -1,0 +1,101 @@
+{
+    "general": {
+        "labels": {
+            "emptyData": "Tidak ada data"
+        },
+        "buttons": {
+            "retry": "Coba Lagi",
+            "copyText": "Salin",
+            "share": "Bagikan",
+            "download": "Unduh"
+        }
+    },
+    "partnerListPage": {
+        "title": "Pilih Mitra",
+        "labels": {
+            "target": "Kirim Pembayaran Kepada:"
+        },
+        "placeholders": {
+            "findPartner": "Cari mitra Anda"
+        }
+    },
+    "paymentDetailPage": {
+        "title": "Pembayaran Invoice",
+        "labels": {
+            "receiverInfo": "Informasi Penerima",
+            "receiverBankInfo": "Informasi Bank Penerima",
+            "selectNotificationMethod": "Pilih Metode Notifikasi",
+            "notificationMethodDesc": "Mitra akan menerima notifikasi pembayaran melalui $value",
+            "paymentAmount": "Jumlah Pembayaran",
+            "notes": "Berita Acara",
+            "addBankAccountInfo": "Silahkan tambahkan rekening untuk melanjutkan bayar invoice.",
+            "accountName": "a.n. $value",
+            "total": "Total"
+        },
+        "placeholders": {
+            "sampleAmount": "1.000.000",
+            "sampleNotes": "cth. Biaya Perbaikan sepeda"
+        },
+        "buttons": {
+            "addBankAccount": "Tambah Rekening",
+            "next": "Selanjutnya"
+        }
+    },
+    "bankAccountFormPage": {
+        "title": "Tambah Rekening",
+        "labels": {
+            "bankName": "Bank Penerima",
+            "accountNumber": "Nomor Rekening Penerima",
+            "accountName": "Nama Pemilik Rekening"
+        },
+        "placeholders": {
+            "selectBank": "Pilih Bank Penerima",
+            "sampleAccountNumber": "cth. 687654321",
+            "sampleAccountName": "cth. Sunter"
+        },
+        "buttons": {
+            "saveAccount": "Simpan Rekening"
+        },
+        "messages": {
+            "validationSuccess": "Nama pemilik rekening berhasil ditemukan"
+        }
+    },
+    "listBankPage": {
+        "title": "Bank Penerima",
+        "placeholders": {
+            "findBank": "Cari nama bank"
+        }
+    },
+    "paymentMethodPage": {
+        "title": "Pilih Metode Pembayaran",
+        "labels": {
+            "totalPayment": "Total Pembayaran"
+        },
+        "buttons": {
+            "next": "Lanjutkan"
+        }
+    },
+    "pendingPaymentPage": {
+        "title": "Kirim Pembayaran",
+        "labels": {
+            "transferTo": "Lakukan Transfer ke",
+            "totalPayment": "Total Pembayaran"
+        },
+        "buttons": {
+            "confirmPayment": "Saya Sudah Bayar"
+        }
+    },
+    "successPaymentPage": {
+        "title": "Rincian Pembayaran",
+        "labels": {
+            "paymentSuccess": "Pembayaran Berhasil",
+            "paymentMethod": "Pembayaran Via",
+            "paymentDetail": "Rincian Pembayaran",
+            "paymentCompleted": "Dana Diteruskan "
+        },
+        "buttons": {
+            "seeStatus": "Lihat Detail Status",
+            "newPayment": "Buat pembayaran Baru"
+        }
+    }
+}

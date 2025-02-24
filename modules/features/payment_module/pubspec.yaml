@@ -1,0 +1,38 @@
+name: payment_module
+description: "A new Flutter package project."
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  core_module:
+    path: ../../core_module
+
+  domain_module:
+    path: ../../domain_module
+  
+  third_parties_module:
+    path: ../../third_parties_module
+
+  slang: 3.32.0
+  slang_flutter: 3.32.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  slang_build_runner: 3.32.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
